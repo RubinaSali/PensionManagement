@@ -1,0 +1,603 @@
+2022-07-29 16:08:06.668  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Starting PensionDisbursementMicroserviceApplication using Java 18.0.1 on DESKTOP-BO9HASB with PID 20764 (E:\Check\PensionManagementSystem-master\pension-disbursement-microservice\target\classes started by Shivansh Tiwari in E:\Check\PensionManagementSystem-master\pension-disbursement-microservice)
+2022-07-29 16:08:06.685  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-07-29 16:08:06.915  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-29 16:08:06.917  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-29 16:08:08.982  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-29 16:08:09.003  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2022-07-29 16:08:09.561  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d8dd6ff4-b837-310e-b1c0-605e37eb1316
+2022-07-29 16:08:11.226  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9083 (http)
+2022-07-29 16:08:11.242  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:08:11.243  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-07-29 16:08:11.424  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:08:11.425  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4504 ms
+2022-07-29 16:08:11.712  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-29 16:08:11.957  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-29 16:08:11.965  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bc0f1f4d-6ac7-41ae-8632-9599dca8066f'
+2022-07-29 16:08:12.604  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-07-29 16:08:13.113  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-29 16:08:13.208  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-07-29 16:08:13.439  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-29 16:08:13.657  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-29 16:08:14.025  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-29 16:08:14.040  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 16:08:14.106  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-29 16:08:14.377  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-29 16:08:17.773  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:08:18.827  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9083 (http) with context path ''
+2022-07-29 16:08:20.399  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:08:20.401  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-29 16:08:20.459  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-29 16:08:20.495  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-29 16:08:20.907  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Started PensionDisbursementMicroserviceApplication in 17.046 seconds (JVM running for 18.327)
+2022-07-29 16:09:12.283  INFO [PensionDisburesmentService,,] 20764 --- [http-nio-9083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 16:09:12.284  INFO [PensionDisburesmentService,,] 20764 --- [http-nio-9083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 16:09:12.293  INFO [PensionDisburesmentService,,] 20764 --- [http-nio-9083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2022-07-29 16:09:12.550  INFO [PensionDisburesmentService,a4404f730e071b7a,a4404f730e071b7a] 20764 --- [http-nio-9083-exec-1] c.w.c.PensionerDisbrusmentConroller      : STARTED - allDetail
+2022-07-29 16:09:12.598 ERROR [PensionDisburesmentService,,] 20764 --- [http-nio-9083-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is feign.RetryableException: Connection refused: no further information executing GET http://localhost:9081/allDetails] with root cause
+
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:373) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[na:na]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529) ~[na:na]
+	at feign.Client$Default.convertResponse(Client.java:108) ~[feign-core-10.12.jar:na]
+	at feign.Client$Default.execute(Client.java:104) ~[feign-core-10.12.jar:na]
+	at org.springframework.cloud.sleuth.instrument.web.client.feign.TracingFeignClient.execute(TracingFeignClient.java:79) ~[spring-cloud-sleuth-instrumentation-3.0.3.jar:3.0.3]
+	at org.springframework.cloud.sleuth.instrument.web.client.feign.LazyClient.execute(LazyClient.java:54) ~[spring-cloud-sleuth-instrumentation-3.0.3.jar:3.0.3]
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:119) ~[feign-core-10.12.jar:na]
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:89) ~[feign-core-10.12.jar:na]
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100) ~[feign-core-10.12.jar:na]
+	at jdk.proxy4/jdk.proxy4.$Proxy114.getAllDetail(Unknown Source) ~[na:na]
+	at com.wipro.controller.PensionerDisbrusmentConroller.allDetail(PensionerDisbrusmentConroller.java:63) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.50.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.50.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.cloud.sleuth.instrument.web.servlet.TracingFilter.doFilter(TracingFilter.java:89) ~[spring-cloud-sleuth-instrumentation-3.0.3.jar:3.0.3]
+	at org.springframework.cloud.sleuth.autoconfig.instrument.web.LazyTracingFilter.doFilter(TraceWebServletConfiguration.java:114) ~[spring-cloud-sleuth-autoconfigure-3.0.3.jar:3.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-07-29 16:09:13.616  WARN [PensionDisburesmentService,,] 20764 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2022-07-29 16:09:13.622  WARN [PensionDisburesmentService,,] 20764 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:69) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:660) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:151) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:169) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:159) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at zipkin2.Call$Base.execute(Call.java:391) ~[zipkin-2.23.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.16.1.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) ~[zipkin-reporter-2.16.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:373) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057) ~[na:na]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776) ~[spring-web-5.3.9.jar:5.3.9]
+	... 9 common frames omitted
+
+2022-07-29 16:10:38.850  INFO [PensionDisburesmentService,,] 20764 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 16:10:38.851  INFO [PensionDisburesmentService,,] 20764 --- [Thread-1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-29 16:10:39.074  WARN [PensionDisburesmentService,,] 20764 --- [Thread-1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-07-29 16:10:39.308  INFO [PensionDisburesmentService,,] 20764 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-29 16:10:39.315  INFO [PensionDisburesmentService,,] 20764 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-29 16:10:41.588  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Starting PensionDisbursementMicroserviceApplication using Java 18.0.1 on DESKTOP-BO9HASB with PID 20764 (E:\Check\PensionManagementSystem-master\pension-disbursement-microservice\target\classes started by Shivansh Tiwari in E:\Check\PensionManagementSystem-master\pension-disbursement-microservice)
+2022-07-29 16:10:41.593  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-07-29 16:10:42.154  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-29 16:10:42.158  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-07-29 16:10:42.292  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d8dd6ff4-b837-310e-b1c0-605e37eb1316
+2022-07-29 16:10:42.478  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9083 (http)
+2022-07-29 16:10:42.479  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:10:42.480  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-07-29 16:10:42.531  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:10:42.531  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 927 ms
+2022-07-29 16:10:42.588  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-07-29 16:10:42.593  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-07-29 16:10:42.594  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:b810ee6c-4e8f-40d9-b9e0-337f37299322'
+2022-07-29 16:10:42.782  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-07-29 16:10:42.880  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-29 16:10:42.889  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-29 16:10:42.905  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-29 16:10:42.906  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 16:10:42.942  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-29 16:10:43.043  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-29 16:10:45.423  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:10:46.293  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9083 (http) with context path ''
+2022-07-29 16:10:48.016  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:10:48.017  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-29 16:10:48.019  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-29 16:10:48.025  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-29 16:10:48.122  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Started PensionDisbursementMicroserviceApplication in 8.596 seconds (JVM running for 165.543)
+2022-07-29 16:10:48.130  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:12:02.975  INFO [PensionDisburesmentService,,] 20764 --- [http-nio-9083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 16:12:02.977  INFO [PensionDisburesmentService,,] 20764 --- [http-nio-9083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 16:12:02.979  INFO [PensionDisburesmentService,,] 20764 --- [http-nio-9083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-07-29 16:12:04.042  WARN [PensionDisburesmentService,,] 20764 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2022-07-29 16:12:04.045  WARN [PensionDisburesmentService,,] 20764 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:69) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:660) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:151) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:169) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:159) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at zipkin2.Call$Base.execute(Call.java:391) ~[zipkin-2.23.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.16.1.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) ~[zipkin-reporter-2.16.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:373) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057) ~[na:na]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776) ~[spring-web-5.3.9.jar:5.3.9]
+	... 9 common frames omitted
+
+2022-07-29 16:20:10.025  INFO [PensionDisburesmentService,,] 20764 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 16:20:10.026  INFO [PensionDisburesmentService,,] 20764 --- [Thread-7] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-29 16:20:10.233  WARN [PensionDisburesmentService,,] 20764 --- [Thread-7] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-07-29 16:20:11.186  INFO [PensionDisburesmentService,,] 20764 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-07-29 16:20:11.189  INFO [PensionDisburesmentService,,] 20764 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-07-29 16:20:13.302  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Starting PensionDisbursementMicroserviceApplication using Java 18.0.1 on DESKTOP-BO9HASB with PID 20764 (E:\Check\PensionManagementSystem-master\pension-disbursement-microservice\target\classes started by Shivansh Tiwari in E:\Check\PensionManagementSystem-master\pension-disbursement-microservice)
+2022-07-29 16:20:13.303  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-07-29 16:20:13.822  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-29 16:20:13.825  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-07-29 16:20:13.961  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d8dd6ff4-b837-310e-b1c0-605e37eb1316
+2022-07-29 16:20:14.125  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9083 (http)
+2022-07-29 16:20:14.126  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:20:14.127  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-07-29 16:20:14.211  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:20:14.211  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 902 ms
+2022-07-29 16:20:14.247  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-07-29 16:20:14.252  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-07-29 16:20:14.252  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:98c25ae7-edae-4f2b-b868-a3bf2d0ddeb2'
+2022-07-29 16:20:14.432  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-07-29 16:20:14.511  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-29 16:20:14.518  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-29 16:20:14.532  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-29 16:20:14.532  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 16:20:14.557  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-29 16:20:14.639  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-29 16:20:16.744  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:20:17.503  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9083 (http) with context path ''
+2022-07-29 16:20:19.029  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:20:19.030  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-29 16:20:19.032  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-29 16:20:19.038  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-29 16:20:19.126  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Started PensionDisbursementMicroserviceApplication in 7.728 seconds (JVM running for 736.546)
+2022-07-29 16:20:19.133  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:20:35.069  INFO [PensionDisburesmentService,,] 20764 --- [http-nio-9083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 16:20:35.069  INFO [PensionDisburesmentService,,] 20764 --- [http-nio-9083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 16:20:35.072  INFO [PensionDisburesmentService,,] 20764 --- [http-nio-9083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-07-29 16:20:36.120  WARN [PensionDisburesmentService,,] 20764 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2022-07-29 16:20:36.123  WARN [PensionDisburesmentService,,] 20764 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:69) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:660) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:151) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:169) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:159) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at zipkin2.Call$Base.execute(Call.java:391) ~[zipkin-2.23.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.16.1.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) ~[zipkin-reporter-2.16.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:373) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057) ~[na:na]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776) ~[spring-web-5.3.9.jar:5.3.9]
+	... 9 common frames omitted
+
+2022-07-29 16:21:46.223  INFO [PensionDisburesmentService,,] 20764 --- [Thread-14] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 16:21:46.224  INFO [PensionDisburesmentService,,] 20764 --- [Thread-14] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-29 16:21:46.436  WARN [PensionDisburesmentService,,] 20764 --- [Thread-14] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-07-29 16:21:46.701  INFO [PensionDisburesmentService,,] 20764 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-07-29 16:21:46.704  INFO [PensionDisburesmentService,,] 20764 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-07-29 16:21:49.164  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Starting PensionDisbursementMicroserviceApplication using Java 18.0.1 on DESKTOP-BO9HASB with PID 20764 (E:\Check\PensionManagementSystem-master\pension-disbursement-microservice\target\classes started by Shivansh Tiwari in E:\Check\PensionManagementSystem-master\pension-disbursement-microservice)
+2022-07-29 16:21:49.165  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-07-29 16:21:49.668  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-29 16:21:49.671  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-07-29 16:21:49.797  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d8dd6ff4-b837-310e-b1c0-605e37eb1316
+2022-07-29 16:21:50.003  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9083 (http)
+2022-07-29 16:21:50.004  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:21:50.005  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-07-29 16:21:50.064  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:21:50.064  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 893 ms
+2022-07-29 16:21:50.106  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-07-29 16:21:50.112  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-07-29 16:21:50.112  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:abc1735c-1a34-401e-bf26-c8edbcba9d42'
+2022-07-29 16:21:50.288  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-07-29 16:21:50.413  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-29 16:21:50.435  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-29 16:21:50.476  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-29 16:21:50.477  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 16:21:50.526  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-29 16:21:50.601  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-29 16:21:52.931  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:21:54.416  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9083 (http) with context path ''
+2022-07-29 16:21:56.593  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:21:56.594  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-29 16:21:56.596  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-29 16:21:56.602  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-29 16:21:56.692  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Started PensionDisbursementMicroserviceApplication in 9.791 seconds (JVM running for 834.113)
+2022-07-29 16:21:56.698  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:22:07.365  INFO [PensionDisburesmentService,,] 20764 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 16:22:07.367  INFO [PensionDisburesmentService,,] 20764 --- [Thread-20] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-29 16:22:07.576  WARN [PensionDisburesmentService,,] 20764 --- [Thread-20] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-07-29 16:22:08.582  INFO [PensionDisburesmentService,,] 20764 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-07-29 16:22:08.584  INFO [PensionDisburesmentService,,] 20764 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-07-29 16:22:10.596  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Starting PensionDisbursementMicroserviceApplication using Java 18.0.1 on DESKTOP-BO9HASB with PID 20764 (E:\Check\PensionManagementSystem-master\pension-disbursement-microservice\target\classes started by Shivansh Tiwari in E:\Check\PensionManagementSystem-master\pension-disbursement-microservice)
+2022-07-29 16:22:10.597  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-07-29 16:22:11.401  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-29 16:22:11.405  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-07-29 16:22:11.533  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d8dd6ff4-b837-310e-b1c0-605e37eb1316
+2022-07-29 16:22:11.713  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9083 (http)
+2022-07-29 16:22:11.715  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:22:11.715  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-07-29 16:22:11.782  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:22:11.782  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1179 ms
+2022-07-29 16:22:11.830  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-07-29 16:22:11.835  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-07-29 16:22:11.835  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:48b88a63-86a0-4e0c-ad78-4b2b13393629'
+2022-07-29 16:22:12.052  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-07-29 16:22:12.236  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-29 16:22:12.250  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-29 16:22:12.291  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-29 16:22:12.291  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 16:22:12.360  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-29 16:22:12.564  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-29 16:22:15.176  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:22:16.237  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9083 (http) with context path ''
+2022-07-29 16:22:18.014  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:22:18.015  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-29 16:22:18.017  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-29 16:22:18.024  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-29 16:22:18.134  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Started PensionDisbursementMicroserviceApplication in 9.345 seconds (JVM running for 855.554)
+2022-07-29 16:22:18.139  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:25:35.218  INFO [PensionDisburesmentService,,] 20764 --- [Thread-26] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 16:25:35.220  INFO [PensionDisburesmentService,,] 20764 --- [Thread-26] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-29 16:25:35.424  WARN [PensionDisburesmentService,,] 20764 --- [Thread-26] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-07-29 16:25:36.437  INFO [PensionDisburesmentService,,] 20764 --- [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-07-29 16:25:36.440  INFO [PensionDisburesmentService,,] 20764 --- [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-07-29 16:25:38.735  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Starting PensionDisbursementMicroserviceApplication using Java 18.0.1 on DESKTOP-BO9HASB with PID 20764 (E:\Check\PensionManagementSystem-master\pension-disbursement-microservice\target\classes started by Shivansh Tiwari in E:\Check\PensionManagementSystem-master\pension-disbursement-microservice)
+2022-07-29 16:25:38.735  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-07-29 16:25:39.285  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-29 16:25:39.288  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-07-29 16:25:39.371  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d8dd6ff4-b837-310e-b1c0-605e37eb1316
+2022-07-29 16:25:39.538  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9083 (http)
+2022-07-29 16:25:39.539  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:25:39.540  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-07-29 16:25:39.691  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:25:39.691  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 949 ms
+2022-07-29 16:25:39.773  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2022-07-29 16:25:39.779  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2022-07-29 16:25:39.780  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:89c6f0fc-d5b7-4693-ab49-e7609c139314'
+2022-07-29 16:25:40.080  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-07-29 16:25:40.231  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-29 16:25:40.239  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-29 16:25:40.254  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-29 16:25:40.255  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 16:25:40.289  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-29 16:25:40.441  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-29 16:25:43.053  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:25:44.189  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9083 (http) with context path ''
+2022-07-29 16:25:45.828  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:25:45.829  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-29 16:25:45.831  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-29 16:25:45.837  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-29 16:25:45.920  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Started PensionDisbursementMicroserviceApplication in 9.229 seconds (JVM running for 1063.34)
+2022-07-29 16:25:45.926  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:25:46.010  INFO [PensionDisburesmentService,,] 20764 --- [Thread-32] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 16:25:46.011  INFO [PensionDisburesmentService,,] 20764 --- [Thread-32] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-29 16:25:46.219  WARN [PensionDisburesmentService,,] 20764 --- [Thread-32] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-07-29 16:25:47.229  INFO [PensionDisburesmentService,,] 20764 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2022-07-29 16:25:47.231  INFO [PensionDisburesmentService,,] 20764 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2022-07-29 16:25:49.618  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Starting PensionDisbursementMicroserviceApplication using Java 18.0.1 on DESKTOP-BO9HASB with PID 20764 (E:\Check\PensionManagementSystem-master\pension-disbursement-microservice\target\classes started by Shivansh Tiwari in E:\Check\PensionManagementSystem-master\pension-disbursement-microservice)
+2022-07-29 16:25:49.620  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-07-29 16:25:50.050  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-29 16:25:50.053  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2022-07-29 16:25:50.141  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d8dd6ff4-b837-310e-b1c0-605e37eb1316
+2022-07-29 16:25:50.302  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9083 (http)
+2022-07-29 16:25:50.303  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:25:50.304  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-07-29 16:25:50.446  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:25:50.447  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 820 ms
+2022-07-29 16:25:50.523  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2022-07-29 16:25:50.533  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2022-07-29 16:25:50.535  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:b817b1c4-b952-4a82-a27e-efcae8e9377f'
+2022-07-29 16:25:50.869  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-07-29 16:25:51.030  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-29 16:25:51.044  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-29 16:25:51.065  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-29 16:25:51.067  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 16:25:51.108  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-29 16:25:51.234  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-29 16:25:53.282  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:25:54.325  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9083 (http) with context path ''
+2022-07-29 16:25:56.190  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:25:56.191  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-29 16:25:56.192  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-29 16:25:56.197  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-29 16:25:56.239  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Started PensionDisbursementMicroserviceApplication in 8.746 seconds (JVM running for 1073.659)
+2022-07-29 16:25:56.243  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:27:28.698  INFO [PensionDisburesmentService,,] 20764 --- [Thread-38] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 16:27:28.699  INFO [PensionDisburesmentService,,] 20764 --- [Thread-38] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-29 16:27:28.909  WARN [PensionDisburesmentService,,] 20764 --- [Thread-38] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-07-29 16:27:29.922  INFO [PensionDisburesmentService,,] 20764 --- [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2022-07-29 16:27:29.923  INFO [PensionDisburesmentService,,] 20764 --- [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2022-07-29 16:27:31.828  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Starting PensionDisbursementMicroserviceApplication using Java 18.0.1 on DESKTOP-BO9HASB with PID 20764 (E:\Check\PensionManagementSystem-master\pension-disbursement-microservice\target\classes started by Shivansh Tiwari in E:\Check\PensionManagementSystem-master\pension-disbursement-microservice)
+2022-07-29 16:27:31.829  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-07-29 16:27:32.399  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-29 16:27:32.402  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-07-29 16:27:32.480  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d8dd6ff4-b837-310e-b1c0-605e37eb1316
+2022-07-29 16:27:32.608  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9083 (http)
+2022-07-29 16:27:32.610  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:27:32.611  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-07-29 16:27:32.649  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:27:32.649  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 815 ms
+2022-07-29 16:27:32.675  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2022-07-29 16:27:32.678  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2022-07-29 16:27:32.679  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:8fe4e4be-5907-4a3a-a017-d861495000a1'
+2022-07-29 16:27:32.874  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-07-29 16:27:32.956  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-29 16:27:32.963  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-29 16:27:32.973  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-29 16:27:32.974  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 16:27:33.005  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-29 16:27:33.074  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-29 16:27:35.203  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:27:36.227  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9083 (http) with context path ''
+2022-07-29 16:27:37.924  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:27:37.925  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-29 16:27:37.926  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-29 16:27:37.933  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-29 16:27:37.994  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Started PensionDisbursementMicroserviceApplication in 7.951 seconds (JVM running for 1175.413)
+2022-07-29 16:27:37.998  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:29:39.295  INFO [PensionDisburesmentService,,] 20764 --- [Thread-44] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 16:29:39.296  INFO [PensionDisburesmentService,,] 20764 --- [Thread-44] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-29 16:29:39.506  WARN [PensionDisburesmentService,,] 20764 --- [Thread-44] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-07-29 16:29:40.520  INFO [PensionDisburesmentService,,] 20764 --- [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2022-07-29 16:29:40.522  INFO [PensionDisburesmentService,,] 20764 --- [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2022-07-29 16:29:42.733  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Starting PensionDisbursementMicroserviceApplication using Java 18.0.1 on DESKTOP-BO9HASB with PID 20764 (E:\Check\PensionManagementSystem-master\pension-disbursement-microservice\target\classes started by Shivansh Tiwari in E:\Check\PensionManagementSystem-master\pension-disbursement-microservice)
+2022-07-29 16:29:42.734  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-07-29 16:29:43.273  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-29 16:29:43.276  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2022-07-29 16:29:43.373  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d8dd6ff4-b837-310e-b1c0-605e37eb1316
+2022-07-29 16:29:43.605  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9083 (http)
+2022-07-29 16:29:43.606  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:29:43.607  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-07-29 16:29:43.720  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:29:43.721  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 981 ms
+2022-07-29 16:29:43.790  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2022-07-29 16:29:43.799  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2022-07-29 16:29:43.800  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:433f7256-3e55-4733-8b67-de1d42820813'
+2022-07-29 16:29:44.120  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-07-29 16:29:44.278  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-29 16:29:44.289  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-29 16:29:44.316  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-29 16:29:44.316  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 16:29:44.359  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-29 16:29:44.461  WARN [PensionDisburesmentService,,] 20764 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-29 16:29:46.991  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:29:47.978  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9083 (http) with context path ''
+2022-07-29 16:29:49.600  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-29 16:29:49.602  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-29 16:29:49.603  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-29 16:29:49.609  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-29 16:29:49.671  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] nsionDisbursementMicroserviceApplication : Started PensionDisbursementMicroserviceApplication in 8.857 seconds (JVM running for 1307.092)
+2022-07-29 16:29:49.676  INFO [PensionDisburesmentService,,] 20764 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:31:24.441  INFO [PensionDisburesmentService,,] 20764 --- [http-nio-9083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 16:31:24.441  INFO [PensionDisburesmentService,,] 20764 --- [http-nio-9083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 16:31:24.446  INFO [PensionDisburesmentService,,] 20764 --- [http-nio-9083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-07-29 16:31:25.498  WARN [PensionDisburesmentService,,] 20764 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2022-07-29 16:31:25.500  WARN [PensionDisburesmentService,,] 20764 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:69) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:660) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:151) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:169) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:159) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at zipkin2.Call$Base.execute(Call.java:391) ~[zipkin-2.23.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.16.1.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) ~[zipkin-reporter-2.16.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:373) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057) ~[na:na]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776) ~[spring-web-5.3.9.jar:5.3.9]
+	... 9 common frames omitted
+
+2022-07-29 17:01:17.614  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] nsionDisbursementMicroserviceApplication : Starting PensionDisbursementMicroserviceApplication using Java 17.0.2 on DESKTOP-0RKTQOI with PID 10640 (C:\Users\admin\Downloads\New-PensionManagementSystem-master\pension-disbursement-microservice\target\classes started by admin in C:\Users\admin\Downloads\New-PensionManagementSystem-master\pension-disbursement-microservice)
+2022-07-29 17:01:17.662  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] nsionDisbursementMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-07-29 17:01:17.834  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-29 17:01:17.834  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-29 17:01:20.411  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-29 17:01:20.455  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 JPA repository interfaces.
+2022-07-29 17:01:21.273  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d8dd6ff4-b837-310e-b1c0-605e37eb1316
+2022-07-29 17:01:23.402  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9083 (http)
+2022-07-29 17:01:23.433  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 17:01:23.434  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-07-29 17:01:23.715  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 17:01:23.716  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5873 ms
+2022-07-29 17:01:23.965  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-29 17:01:24.368  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-29 17:01:24.381  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:969c79fd-8854-4814-aa51-e9a8e2e20b62'
+2022-07-29 17:01:25.333  WARN [PensionDisburesmentService,,] 10640 --- [restartedMain] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-07-29 17:01:25.930  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-29 17:01:26.035  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-07-29 17:01:26.346  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-29 17:01:26.621  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-29 17:01:27.023  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-29 17:01:27.053  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-29 17:01:27.187  WARN [PensionDisburesmentService,,] 10640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-29 17:01:27.695  WARN [PensionDisburesmentService,,] 10640 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-29 17:01:31.274  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9083 (http) with context path ''
+2022-07-29 17:01:31.554  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-29 17:01:31.586  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-29 17:01:31.615  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-29 17:01:31.961  INFO [PensionDisburesmentService,,] 10640 --- [restartedMain] nsionDisbursementMicroserviceApplication : Started PensionDisbursementMicroserviceApplication in 15.607 seconds (JVM running for 16.855)
+2022-07-29 17:02:05.018  INFO [PensionDisburesmentService,,] 10640 --- [http-nio-9083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 17:02:05.018  INFO [PensionDisburesmentService,,] 10640 --- [http-nio-9083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 17:02:05.023  INFO [PensionDisburesmentService,,] 10640 --- [http-nio-9083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-07-29 17:02:06.465  WARN [PensionDisburesmentService,,] 10640 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2022-07-29 17:02:06.476  WARN [PensionDisburesmentService,,] 10640 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:69) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:660) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:151) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:169) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:159) ~[spring-cloud-sleuth-zipkin-3.0.3.jar:3.0.3]
+	at zipkin2.Call$Base.execute(Call.java:391) ~[zipkin-2.23.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.16.1.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) ~[zipkin-reporter-2.16.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:373) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057) ~[na:na]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776) ~[spring-web-5.3.9.jar:5.3.9]
+	... 9 common frames omitted
+

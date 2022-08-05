@@ -1,0 +1,39 @@
+<div class="row w-100">
+    <div class="col-md-2 layout-body">
+        <app-menu></app-menu>
+    </div>
+    <div class="col-md-10">
+        <div class="container p-5 w-99">
+            <div class="row w-100">
+                <h2>Account Statement</h2>
+                <div class="row mt-4">
+                    <table class="table table-bordered">
+                        <thead>
+                          <tr>
+                            <th scope="col">S.No</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">User Name</th>
+                            <th scope="col">Account Number</th>
+                            <th scope="col">Account Type</th>
+                            <th scope="col">Balance</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr *ngFor="let data of accountData; let i=index;">
+                            <th scope="row">{{i + 1}}</th>
+                            <td>{{data.date}}</td>
+                            <td>{{data.userName}}</td>
+                            <td>{{data.accountNumber}}</td>
+                            <td>{{data.accountType}}</td>
+                            <td>{{data.balance}}</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row mt-3" style="width: 20%;">
+                    <button type="button" class="btn btn-lg btn-primary btn-class">Download</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

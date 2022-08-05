@@ -1,0 +1,10 @@
+.menu-item-list {
+    padding: 12px 0;
+    border-bottom: solid 1px #B9BBBD;
+    width: 100%;
+    cursor: pointer;
+}
+
+.menu-selected {
+    background: #b1b3b5;
+}

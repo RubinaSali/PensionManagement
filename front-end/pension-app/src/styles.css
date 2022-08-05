@@ -1,0 +1,15 @@
+
+.layout-body {
+    background: #F8F9FA;
+    height: calc(100vh -40px);
+    padding-right: 0;
+}
+
+.form-field {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btn-class {
+    padding: 5px 25px;
+}

@@ -1,0 +1,20 @@
+<nav class="navbar navbar-light bg-light p-0">
+    <div class="menu-item-list" (click)="onRedirectClick('home')" [ngClass]="{'menu-selected' : routerUrl == '/home'}">
+        <a class="navbar-brand" >&nbsp;Home</a>
+    </div>
+    <div class="menu-item-list" (click)="onRedirectClick('personal-detail')" [ngClass]="{'menu-selected' : routerUrl == '/personal-detail'}">
+        <a class="navbar-brand" >&nbsp;Personal Details</a>
+    </div>
+    <div class="menu-item-list" (click)="onRedirectClick('account-detail')" [ngClass]="{'menu-selected' : routerUrl == '/account-detail'}">
+        <a class="navbar-brand">&nbsp;Account Details</a>
+    </div>
+    <div class="menu-item-list" (click)="onRedirectClick('pension-statement')" [ngClass]="{'menu-selected' : routerUrl == '/pension-statement'}">
+        <a class="navbar-brand">&nbsp;Pension Statement</a>
+    </div>
+    <div class="menu-item-list" (click)="onRedirectClick('account-statement')" [ngClass]="{'menu-selected' : routerUrl == '/account-statement'}">
+        <a class="navbar-brand">&nbsp;Account Statement</a>
+    </div>
+    <div class="menu-item-list" (click)="onRedirectClick('login')">
+        <a class="navbar-brand">&nbsp;Logout</a>
+    </div>
+</nav>

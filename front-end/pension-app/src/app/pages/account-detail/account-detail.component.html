@@ -1,0 +1,54 @@
+<div class="row w-100">
+    <div class="col-md-2 layout-body">
+        <app-menu></app-menu>
+    </div>
+    <div class="col-md-10">
+        <div class="container p-5 w-99">
+            <div class="row w-100">
+                <h2>Account Details</h2>
+                <div class="col-md-6">
+                    <form [formGroup]="accountDetailsForm" (ngSubmit)="onSubmit($event);">
+                        <div class="form-group" style="margin-top: 35px;">
+                            <label for="holderName">Acccount Holder Name</label>
+                            <input formControlName="holderName" type="text" class="form-control form-field" placeholder="Account Holder Name" required>
+                        </div>
+                        <div class="form-group" style="margin-top: 20px;">
+                            <label for="accountType">Account Type</label>
+                            <select class="form-select form-field" formControlName="accountType">
+                                <option value="Current">Current</option>
+                                <option value="Savings">Savings</option>
+                              </select>
+                        </div>
+                        <div class="form-group" style="margin-top: 20px;">
+                            <label for="accountNumber">Account Number</label>
+                            <input formControlName="accountNumber" type="text" class="form-control form-field" placeholder="Account Number" required>
+                        </div>
+                        <div class="form-group" style="margin-top: 20px;">
+                            <label for="bankName">Bank Name</label>
+                            <input formControlName="bankName" type="text" class="form-control form-field" placeholder="Bank Name" required>
+                        </div>
+                        <div class="form-group" style="margin-top: 20px;">
+                            <label for="branch">Branch</label>
+                            <input formControlName="branch" type="text" class="form-control form-field" placeholder="Branch" required>
+                        </div>
+                        <div class="form-group" style="margin-top: 20px;">
+                            <label for="ifsc">IFSC Code</label>
+                            <input formControlName="ifsc" type="text" class="form-control form-field" placeholder="IFSC Code" required>
+                        </div>
+                        <div class="form-group" style="margin-top: 20px;">
+                            <label for="pan">Pan Card Number</label>
+                            <input formControlName="pan" type="number" class="form-control form-field" placeholder="Pan Card Number" required>
+                        </div>
+                        <div class="form-group" style="margin-top: 20px;">
+                            <label for="salary">Net Salary</label>
+                            <input formControlName="salary" type="number" class="form-control form-field" placeholder="Net Salary" required>
+                        </div>
+                        <div class="form-group" style="margin-top: 30px;">
+                            <button type="submit" class="btn btn-lg btn-primary btn-class">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
